@@ -6,8 +6,9 @@
     "php",
     "text-morph",
     "text-transformation",
-    "text-encoding",
-    "text-decoding",
+    "encoding",
+    "decoding",
+    "encoding-decoding",
     "encoding-algorithms",
     "decoding-algorithms"
   ],
