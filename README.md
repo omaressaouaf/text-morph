@@ -11,9 +11,11 @@ A lightweight PHP package for **reversible text transformations** using simple m
 - **Rotational** morphing: shift letters across a 52-character alphabet with wrap-around
 - **Substitution** morphing: bidirectional character-pair swaps with case preservation
 - **Transposition** morphing: rail-fence (zigzag) character reordering
-- **Composite** pipeline": chain multiple morphers and reverse them in one call
+- **Composite** pipeline: chain multiple morphers and reverse them in one call
 - Every morpher supports `morph()` and `unmorph()`
 - Framework-agnostic, zero runtime dependencies
+
+> TextMorph is a text transformation package. It is not intended for encryption, password hashing, or security-sensitive data.
 
 ---
 
