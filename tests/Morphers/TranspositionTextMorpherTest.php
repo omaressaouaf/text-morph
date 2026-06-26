@@ -13,7 +13,7 @@ class TranspositionTextMorpherTest extends TestCase
     public function test_it_rejects_invalid_rails(int $rails): void
     {
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessageIs('Rails must be at least 2');
+        $this->expectExceptionMessage('Rails must be at least 2');
 
         new TranspositionTextMorpher($rails);
     }

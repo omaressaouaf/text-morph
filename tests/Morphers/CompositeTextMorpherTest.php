@@ -15,7 +15,7 @@ class CompositeTextMorpherTest extends TestCase
         $morpher = new CompositeTextMorpher();
 
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessageIs('No morphers added to the composite morpher');
+        $this->expectExceptionMessage('No morphers added to the composite morpher');
 
         $morpher->morph('hello');
     }
@@ -25,7 +25,7 @@ class CompositeTextMorpherTest extends TestCase
         $morpher = new CompositeTextMorpher();
 
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessageIs('No morphers added to the composite morpher');
+        $this->expectExceptionMessage('No morphers added to the composite morpher');
 
         $morpher->unmorph('hello');
     }

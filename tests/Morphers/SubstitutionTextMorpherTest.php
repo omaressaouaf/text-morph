@@ -13,7 +13,7 @@ class SubstitutionTextMorpherTest extends TestCase
     public function test_it_rejects_invalid_pairs(array $pairs, string $message): void
     {
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessageIs($message);
+        $this->expectExceptionMessage($message);
 
         new SubstitutionTextMorpher($pairs);
     }
