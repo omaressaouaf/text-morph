@@ -16,6 +16,7 @@ A lightweight PHP package for **reversible text transformations** using simple m
 - Framework-agnostic, zero runtime dependencies
 
 > TextMorph is a text transformation package. It is not intended for encryption, password hashing, or security-sensitive data.
+> TextMorph currently operates on ASCII strings. Multibyte/Unicode-aware transformations are not currently supported.
 
 ---
 
