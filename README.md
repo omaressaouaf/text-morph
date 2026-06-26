@@ -1,4 +1,4 @@
-# Text Morph
+# TextMorph
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/omaressaouaf/text-morph.svg)](https://packagist.org/packages/omaressaouaf/text-morph)
 [![License](https://img.shields.io/github/license/omaressaouaf/text-morph)](LICENSE)
