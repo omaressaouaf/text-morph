@@ -1,0 +1,40 @@
+{
+  "name": "omaressaouaf/text-morph",
+  "description": "A lightweight PHP package for reversible text transformations using simple morphing algorithms and a composable pipeline",
+  "keywords": [
+    "omaressaouaf",
+    "php",
+    "text-morph",
+    "text-transformation",
+    "text-encoding",
+    "text-decoding",
+    "encoding-algorithms",
+    "decoding-algorithms"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/omaressaouaf/text-morph",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Omar Essaouaf",
+      "email": "souafomar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omaressaouaf\\TextMorph\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Omaressaouaf\\TextMorph\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-f": "vendor/bin/phpunit --filter"
+  },
+  "require": {},
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
